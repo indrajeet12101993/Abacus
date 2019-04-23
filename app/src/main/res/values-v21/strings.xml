@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Skill</string>
+    <string name="title_activity_home">Skill</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="number_of_digits">Number of Digits</string>
+    <string name="number_of_sums">Number of Sums</string>
+    <string name="time_in_second">Time In Second</string>
+    <string name="start">Start</string>
+    <string name="requiredfield">Required Input Field</string>
+    <string name="enter_your_answer">Enter Your Answer</string>
+    <string name="check_ans">Check Ans</string>
+    <string name="start_again">Start Again</string>
+</resources>

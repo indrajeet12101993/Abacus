@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_addition"
+            android:icon="@drawable/splash_copy_4"
+            android:title="Addition" />
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/maths"
+            android:title="Add/Sub" />
+        <item
+            android:id="@+id/nav_decimal"
+            android:icon="@drawable/maths_copy"
+            android:title="Decimal Add/Sub" />
+        <item
+            android:id="@+id/nav_multiply"
+            android:icon="@drawable/multiply"
+            android:title="Multiply" />
+
+        <item
+            android:id="@+id/nav_longmultiplication"
+            android:icon="@drawable/multiply"
+            android:title="Long Multiplication" />
+        <item
+            android:id="@+id/nav_division"
+            android:icon="@drawable/maths_copy"
+            android:title="Division" />
+        <item
+            android:id="@+id/nav_squareroot"
+            android:icon="@drawable/splash_copy_3"
+            android:title="Square Root" />
+
+        <item
+            android:id="@+id/nav_cuberoot"
+            android:icon="@drawable/square_root_copy"
+            android:title="Cube Root" />
+
+        <item
+            android:id="@+id/nav_table"
+            android:icon="@drawable/multiply_copy_2"
+            android:title="Table" />
+
+
+        <item
+            android:id="@+id/nav_percentage"
+            android:icon="@drawable/percentage"
+            android:title="Percentage" />
+        <item
+            android:id="@+id/nav_stopwatch"
+            android:icon="@drawable/stop"
+            android:title="Stop Watch" />
+        <item
+            android:id="@+id/nav_calculator"
+            android:icon="@drawable/calculator"
+            android:title="Calculator" />
+    </group>
+
+
+</menu>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:id="@+id/texttimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_margin="20dp"
+            android:text="0/0"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tv_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text="Right:" />
+
+        <TextView
+            android:id="@+id/tv_wrong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Wrong:" />
+
+
+
+
+        <TextView
+            android:id="@+id/tv_multiply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tv_multiply1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/et_ans"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_weight="1.2"
+                android:hint="Enter Your Answer" />
+
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_weight=".8"
+                android:text="NEXT" />
+        </LinearLayout>
+
+
+
+
+        <Button
+            android:id="@id/btn_start_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="START AGAIN" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
+
+

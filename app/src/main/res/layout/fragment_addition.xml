@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.addition.AdditionFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_margin="30dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:maxLength="1"
+            android:id="@+id/et_digits"
+            android:layout_height="wrap_content"
+            android:hint="@string/number_of_digits" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+     >
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:maxLength="4"
+            android:id="@+id/et_sum"
+            android:layout_height="wrap_content"
+            android:hint="@string/number_of_sums" />
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:inputType="numberDecimal"
+            android:maxLength="4"
+            android:id="@+id/et_time"
+            android:layout_height="wrap_content"
+            android:hint="@string/time_in_second" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:id="@+id/btn_start"
+        android:layout_gravity="center"
+        android:text="@string/start"
+        />
+
+</LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
